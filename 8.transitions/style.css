@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 12px;
+  border-radius: 8px;
+  /* transition-property: background-color; */
+  /* transition-duration: 0.3s; */
+  /* transition-timing-function: ease; */
+  /* transition-timing-function: ease-in; */
+  /* transition-timing-function: ease-out; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-timing-function: linear; */
+
+  /* transition-delay: 1s; */
+
+  /* transition: transform 0.3s ease 1s; */
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  transform: translateY(-5px);
+  background-color: red;
+  font-size: 20px;
+}

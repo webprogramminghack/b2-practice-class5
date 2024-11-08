@@ -1,0 +1,56 @@
+.example-link {
+  color: blue;
+}
+
+.example-link:hover {
+  color: red;
+  font-weight: 700;
+}
+
+.example-link:active {
+  color: orange;
+}
+
+.example-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  margin: 5px;
+  border: none;
+}
+
+.example-button:hover {
+  background-color: #45a049;
+}
+
+.example-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.example-input:focus {
+  border: 2px solid #45a049;
+  outline: none;
+  border-radius: 2px;
+}
+
+.example-list li:nth-child(even) {
+  background-color: #d3d3d3;
+}
+
+.example-list li:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+.example-list li:first-child {
+  font-weight: 700;
+}
+
+.example-list li:last-child {
+  font-style: italic;
+}
+
+.example-list li:nth-child(5) {
+  color: red;
+}

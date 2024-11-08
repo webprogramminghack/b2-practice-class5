@@ -1,0 +1,57 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-300px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(-30px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.title {
+  /* animation-name: slide; */
+  /* animation-duration: 1s; */
+  /* animation-timing-function: ease-in; */
+  /* animation-delay: 1s; */
+  /* animation-iteration-count: 3; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: reverse; */
+
+  /* animation: slide 1s ease-in 0s 1 normal; */
+
+  /* animation: rotate 1s linear 0s infinite normal; */
+  /* transform-origin: top left; */
+
+  animation: bounce 1s ease-in-out 0s infinite normal;
+}

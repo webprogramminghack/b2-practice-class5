@@ -1,0 +1,38 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background: red;
+  color: white;
+  font-size: 35px;
+}
+
+@media (min-width: 768px) {
+  .box {
+    background: green;
+  }
+}
+
+@media (min-width: 1024px) {
+  .box {
+    background: blue;
+  }
+}
+
+@media (min-width: 1280px) {
+  .box {
+    background: yellow;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    font-size: 15px;
+  }
+}
